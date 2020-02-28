@@ -1,0 +1,54 @@
+.divisor2{
+      width: 100%;
+      height: 300px;
+      background-image: linear-gradient(rgb(2,76,231),rgba(119,1,150,0.7));
+      clip-path: polygon(
+      0 0,
+      100% 0,
+      100% 100%,
+      0 calc(100% - 5vw));
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-flow: wrap;
+      z-index: 1;
+
+    }
+
+    .img {
+        width: 190px;
+        height: 190px;
+        padding: 2px;
+        position: relative;
+        bottom: 5px;
+        z-index: 200;
+  }
+
+
+  @media screen and (max-width:870px){
+  .img {
+    width: 150px;
+    height: 150px;
+    padding: 2px;
+    position: relative;
+    bottom: 5px;
+    z-index: 200;
+}
+  }
+  
+
+  @media screen and (max-width:560px){
+    .img {
+      width: 130px;
+      height: 130px;
+      padding: 2px;
+      position: relative;
+      bottom: 5px;
+      z-index: 200;
+  }
+    }
+
+
+
+
+

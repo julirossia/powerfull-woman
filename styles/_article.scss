@@ -1,0 +1,73 @@
+#article{ 
+    
+    font-family: $main--font;
+    font-size: 1.4rem;
+    color: white;
+    justify-content: center;
+    position: relative;
+    padding: 130px;
+    margin-top:80px;
+    margin-right: 15%;
+    margin-bottom: 8%;
+    margin-left: 15%;
+    text-align: center;
+
+}
+@media screen and (min-width:900px) and (max-width:1024px){
+    #article{
+    font-size: 1.3rem;
+    color: white;
+    justify-content: center;
+    position: relative;
+    padding: 130px;
+    margin-top:20px;
+    margin-right: 13%;
+    margin-bottom: 8%;
+    margin-left: 13%;
+    text-align: center;
+ }
+}
+
+@media screen and (min-width:740px) and (max-width:900px){
+    #article{
+        font-size: 1.2rem;
+        color: white;
+        justify-content: center;
+        position: relative;
+        padding: 130px;
+        margin-top:20px;
+        margin-right: 13%;
+        margin-bottom: 8%;
+        margin-left: 13%;
+        text-align: center;
+     }
+    }
+    @media screen and (min-width:481px) and (max-width:600px){
+        #article{
+            font-size: 0.9rem;
+            color: white;
+            justify-content: center;
+            position: relative;
+            padding: 50px;
+            margin-top:30px;
+            margin-right: 1%;
+            margin-bottom: 10%;
+            margin-left: 1%;
+            text-align: center;
+         }
+        }
+    
+@media screen and (min-width:300px) and (max-width:480px){
+    #article{
+        font-size: 0.8rem;
+        color: white;
+        justify-content: center;
+        position: relative;
+        padding: 50px;
+        margin-top:30px;
+        margin-right: 1%;
+        margin-bottom: 10%;
+        margin-left: 1%;
+        text-align: center;
+     }
+    }
